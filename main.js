@@ -22,7 +22,7 @@ function Enviar(){
     total += parseFloat(sum.toFixed(2))
 
 
-    document.getElementById("Total").innerHTML = "Total: $" + total
+    document.getElementById("Total").innerHTML = "Total: $" + (total.toFixed(2))
     document.getElementById("Division").innerHTML = "A cada uno le toca aportar: $" + ((total / arrayInput.length).toFixed(2))
 
 } 
