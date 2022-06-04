@@ -12,7 +12,7 @@ function Enviar(){
 
     for(let i = 0; i < arrayName.length; i++){
         sum = parseFloat(arrayInput[i]);
-        text += arrayName[i] + ": $" + arrayInput[i] + "<br>";
+        text += `<button class="gasto-persona" onclick:"Eliminar()"> ${arrayName[i]}: $${arrayInput[i]} </button>`;
         document.getElementById("Lista").innerHTML = text;
     }
     text = ""
