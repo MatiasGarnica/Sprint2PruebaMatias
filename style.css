@@ -5,16 +5,15 @@ body{
     width: 310px;
     height: 50px;
     font-family: Mukta;
+    margin: 0;
+    align-items: center
 }
  
  
 header{
-    color: rgb(232, 232, 232);
-    background-color: rgb(25, 81, 251);
     border: 5px solid rgb(201, 202, 202);
     border-bottom: none;
     text-align: center;
-    padding: 0 2em 2em 2em;
 }
 nav{
     background-color: rgb(255, 255, 255);
