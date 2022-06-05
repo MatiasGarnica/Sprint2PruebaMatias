@@ -46,8 +46,9 @@ nav{
 
 #datos-ingresar{
     border-color: grey;
-    width: 70%;
+    margin-right: 5px;
 }
+
 #Lista {
     padding: 2px;
     padding-left: 10px;
