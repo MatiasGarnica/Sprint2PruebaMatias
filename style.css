@@ -40,15 +40,13 @@ nav{
 #rdo:active{
     transform: translateY(4px);
 }
+#nombre, #gasto{
+    margin-bottom: 4px;
+}
 
 #datos-ingresar{
-    line-height: 2;
-
-}
-#datos-ingresar input{
     border-color: grey;
     width: 70%;
-    
 }
 #Lista {
     padding: 2px;
